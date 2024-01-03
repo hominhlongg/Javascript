@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>VinaEnter EDU - Đã học là làm được</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<style>
+		.invalid {
+			border: 2px solid red;
+			border-radius: 5px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="wrapper">
+		<!-- begin header -->
+		<div id="header">
+			<div class="header-left fl">
+				<a href="index.html" title=""><img src="images/logo_edu.png" alt="" /></a>
+			</div>
+			<div class="header-right fr">
+				<a href="index.html" title=""><img src="images/banner.jpg" alt="" /></a>
+			</div>
+			<div class="clr"></div>
+		</div>
+		<!-- end header -->
+
+		<!-- begin menu -->
+		<div id="menu">
+			<ul>
+				<li><a href="index.html" title="">Trang chủ</a></li>
+				<li><a href="tintuc.html" title="">Tin tức</a></li>
+				<li class="active"><a href="lienhe.html" title="">Liên hệ</a></li>
+			</ul>
+			<div class="clr"></div>
+		</div>
+		<!-- end menu -->
+
+		<!-- begin content -->
+		<div id="content">
+			<div class="content-left fl">
+			</div>
+			<div class="content-right fr">
+				<h3>Liên hệ</h3>
+				<div class="main-content">
+					<form action="" class="frmContact">
+						<p>Vui lòng điền đầy đủ các thông tin liên hệ sau: </p>
+						<div class="row">
+							<label>Họ tên: </label>
+							<input type="text" name="name" value="" />
+							<div class=""></div>
+						</div>
+						<div class="row">
+							<label>Số điện thoại: </label>
+							<input type="number" name="phone" value="" />
+							<div class=""></div>
+						</div>
+						<div class="row">
+							<label>Website: </label>
+							<input type="text" name="web" value="" />
+							<div class=""></div>
+						</div>
+						<div class="row">
+							<label>Giới tính: </label>
+							<select name="gender">
+								<option value="">-- Chọn giới tính --</option>
+								<option value="1">Nam</option>
+								<option value="0">Nữ</option>
+							</select>
+							<div class=""></div>
+
+						</div>
+						<div class="row">
+							<label>Ảnh đại diện: </label>
+							<input type="file" name="picture" value="" />
+							<div class=""></div>
+						</div>
+						<div class="row">
+							<label>Nội dung: </label>
+							<textarea name="content"></textarea>
+							<div class=""></div>
+						</div>
+						<div class="row">
+							<input type="submit" name="submit" value="Gửi liên hệ" />
+							<input type="reset" name="reset" value="Nhập lại" />
+						</div>
+						<div class="error"></div>
+					</form>
+				</div>
+			</div>
+			<div class="clr"></div>
+		</div>
+		<!-- end content -->
+
+		<div id="footer">
+			<p>Trung tâm đào tạo Lập trình viên VinaEnter EDU</p>
+			<p>Copyright &copy 2014 - Designed by <a href="" title="">VinaEnter</a></p>
+		</div>
+	</div>
+</body>
+<script src="./lib/axios.min.js"></script>
+<script src="./lib/jquery-3.6.3.min.js"></script>
+<script src="./js/category.js"></script>
+<script src="./js/contact.js"></script>
+
+</html>
